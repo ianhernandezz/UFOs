@@ -1,7 +1,7 @@
 # UFOs
 
 
-# Overview of Project:
+# Overview of Project
 
 Dana’s webpage and dynamic table are working as intended, but she’d like to provide a more in-depth analysis of UFO sightings by allowing users to filter for multiple criteria at the same time. In addition to the date, you’ll add table filters for the city, state, country, and shape.
 
@@ -13,7 +13,7 @@ Dana’s webpage and dynamic table are working as intended, but she’d like to 
 
 
 
-# Results: Describe to Dana how someone might use the new webpage by walking her through the process of using the search criteria. Use images of your webpage during the filtering process to support your explanation.
+# Results
 
 - Upon arrivale to the webpage you will be greated with this. 
 
@@ -41,5 +41,11 @@ Dana’s webpage and dynamic table are working as intended, but she’d like to 
 
 
 
+# Summary
 
-# Summary: In a summary statement, describe one drawback of this new design and two recommendations for further development.
+As this webpage was coming together, I would indicate that one drawback to this webpage is the visual simplicity to it. It may need some polish before real life use.
+
+**Two recoomendations would be;**
+
+1. I would make the lines of that divide the different sections of this webpage a little bit more smooth.
+2. I would use a different colors to be easier on the eyes
