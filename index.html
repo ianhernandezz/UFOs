@@ -10,7 +10,7 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="/static/css/css/style.css">
 </head>
 <body class="bg-dark">
     <div class="wrapper">
@@ -18,7 +18,7 @@
             <a class="navbar-brand" href="index.html">UFO Sightings</a>
         </nav>
     </div>
-    <div class="jumbotron">
+    <div class="jumbotron bg-dark">
         <h1 class="display-4">The Truth is Out There</h1>
     </div>
     <div class="container-fluid">
@@ -47,10 +47,29 @@
                         <input type="text" placeholder="1/10/2010" id="datetime" />
                     </li>
                     <li class="list-group-item bg-dark">
-                        <button id="filter-btn" type="button" class="btn btn-dark">Filter Table</button>                    
+                        <label for="city">Enter City</label>
+                        <input type="text" placeholder="el canjon" id="city" />
                     </li>
+                    <li class="list-group-item bg-dark">
+                        <label for="state">Enter State </label>
+                        <input type="text" placeholder="ca" id="state" />
+                    </li>
+                    <li class="list-group-item bg-dark">
+                        <label for="country">Enter Country</label>
+                        <input type="text" placeholder="us" id="country" />
+                    </li>
+                    <li class="list-group-item bg-dark">
+                        <label for="shape">Enter Shape</label>
+                        <input type="text" placeholder="triangle" id="shape" />
+                    </li>
+                    <!-- <li class="list-group-item bg-dark">
+                        <button id="filter-btn" type="button" class="btn btn-dark">Filter Table</button>                    
+                    </li> -->
                 </ul>
+
             </form>
+
+
           </div>
           <div class="col-md-9">
             <table class="table table-striped">
